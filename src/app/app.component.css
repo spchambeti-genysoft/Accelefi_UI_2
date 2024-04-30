@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Add some margin between the sections */
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px; /* Add some space between columns */
+}
+
+.flex {
+  display: flex;
+  /* align-items: center;  */
+}
+
+.flex-column {
+  flex-direction: column; /* Align items in column layout */
+}
+
+.flex-row {
+  flex-direction: row; /* Align items in row layout */
+}
+
+.gap-2 {
+  margin-bottom: 10px; /* Add some vertical spacing between input fields */
+}
+
+label {
+  color: rgb(140, 170, 212);
+  font-weight: bold; /* Make labels bold */
+  margin-bottom: 5px; /* Add some space below labels */
+  text-align: left; /* Align labels to the left */
+}
+
+input,
+textarea {
+  width: 100%; /* Make inputs and textareas fill the entire width */
+  padding: 8px; /* Add padding to inputs and textareas */
+  border: 1px solid #ccc; /* Add border to inputs and textareas */
+  border-radius: 4px; /* Add border radius to inputs and textareas */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing of textareas */
+}
+
+.p-checkbox {
+  margin-top: 8px; /* Add some space between checkbox and label */
+}
+
+.flex-row .flex-column {
+  margin-right: 10px; /* Add some space between the two input fields */
+}
